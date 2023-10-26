@@ -1,0 +1,145 @@
+/*s
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+
+/* Global styles
+
+/*global*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img{
+  width:300px;
+}
+img{
+  float:left;
+
+}
+body{
+  margin: 0;
+  line-height: 2.4em;
+  font-family:'Montserrat',sans-serif;
+}
+h1,h2,h3{
+  font-family:'Caveat',cursive;
+
+}
+h1{
+  font-size: 64px;
+
+}
+h2{
+  font-size: 48px;
+}
+h3{
+  font-size: 36px;
+}
+a{
+  background:#2F3061;
+text-decoration: none;
+  padding:8px ;
+  color: white;
+  border-radius: 4px
+
+}
+a:hover{
+  color :#F7FFF7;
+}
+a:focus{
+  color :#A1C6D7
+}
+p,h1,h2{
+  margin:0;
+}
+h1,h2{
+  margin-bottom:30px;
+}
+h3{
+  clear:both;
+}
+.wrap{
+  width: 800px;
+   margin: 0 auto;
+   padding: 60px 0;
+}
+  /************************  ABOUT / PROFILE  ***********************/
+.info{
+  background:blue;
+height: 400px;
+}
+
+.info a{
+  padding : 5px;
+}
+   /********************  PROJECTS / PORTFOLIO  *********************/
+.projects{
+  background: #FFE66D;
+height: 1500px;
+
+
+}
+.ibody{
+  margin-right: 10px;
+
+}
+.one{
+  margin-bottom:10px;
+}
+
+.pbody{
+
+  overflow:hidden;
+  border-bottom: 2px solid black;
+}
+
+
+
+ /***********************  WORK EXPERIENCE  ***********************/
+.work-experience{
+height: 1600px;
+  background-color:#343434;
+  color:white;
+
+}
+.job-items{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px 20px;
+  border-bottom: 2px dashed white;
+
+}
+.heads{
+  margin-top:0;
+}
+
+ /******************  EDUCATION & CERTIFICATIONS ******************/
+
+
+
+  /*Social media and contact links. Add or remove any networks.*/
+.social{
+  background:#FFE66D;
+ height: 400px;
+text-align:center;
+
+}
+.social a{
+  margin: 2px;
+  line-height: 2rem;
+}
+.list{
+  list-style-type:none;
+  display:flex;
+  justify-content: center;
+
+}
